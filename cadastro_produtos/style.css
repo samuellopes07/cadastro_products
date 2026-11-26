@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #555;
+    font-size: 20px;
+}
+
+.linha {
+    margin: 12px 0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    max-width: 95%;
+}
+
+textarea {
+    width: 300px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+#preview {
+    display: none;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+button {
+    border: 0;
+    padding: 9px 14px;
+    color: white;
+    background: #579b45;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+#btnCancelar {
+    background: #888;
+}
+
+.editar {
+    background: #24577a;
+}
+
+.excluir {
+    background: #a71919;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #579b45;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    label {
+        width: 80px;
+    }
+}
